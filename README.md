@@ -5,6 +5,7 @@ Personal library where I have stored all the important knowledge which I needs e
 * [Git](/Git/Git.md)
     * [Installing/Configuring Git](/Git/Git.md/#git-installation)
 * [Sublime Text](/SublimeText/SublimeText.md)
+* [Markdown](/Markdown/Markdown.md)
 
 
 [Setting up markdown for Sublime Text](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)
