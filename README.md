@@ -7,4 +7,5 @@ Personal library where I have stored all the important knowledge which I needs e
 
 
 [Setting up markdown for Sublime Text](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)
+
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
