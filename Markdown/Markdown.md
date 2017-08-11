@@ -1,5 +1,6 @@
 # Markdown
 Markdown Tips and Tricks!
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## Table of Contents
 * [Text Formatting](#text-formatting)

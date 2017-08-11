@@ -21,3 +21,5 @@ Download the installation file from [here]()
 1. To customize the plugin, go to **Preference->Package Settings->Markdown Editing**
 1. There will be two versions of each settings, always edit the **User** version of the settings file
 
+[Setting up markdown for Sublime Text](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)
+
