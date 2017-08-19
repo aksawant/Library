@@ -6,5 +6,7 @@ Personal library where I have stored all the important knowledge which I needs e
 * [Sublime Text](/SublimeText/SublimeText.md)
 * [Markdown](/Markdown/Markdown.md)
 * [Linux](/Linux/Linux.md)
+* [SQL](/SQL/SQL.md)
+
 
 
