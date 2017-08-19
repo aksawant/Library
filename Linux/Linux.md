@@ -4,6 +4,9 @@ Common commands and how-to's for Linux
 ## Table of Contents
 * [Common Commands](#common-commands)
 * [Docker Commands](#docker-commands)
+* [Unzip and Tar Commands](#unzip-and-tar-commands)
+* [Start and Stop Service](#start-and-stop-service)
+
 
 ### Common Commands
 * cp : Copy file or directory
@@ -13,6 +16,7 @@ Common commands and how-to's for Linux
 * rm : remove file or folder
 * rm -f : Force delete file or folder
 * mkdir : Make directory
+
 
 ### Docker Commands
 * service docker start/stop : To start/stop docker service
@@ -25,12 +29,22 @@ Common commands and how-to's for Linux
 ``` bash
 docker build -t tomcat:8 .
 ```
-* docker run -d IMAGE -p 8080:8080 --name dockerName : To run a docker image on a container 
+* docker run -d IMAGE -p 8080:8080 --name containerName : To run a docker image on a container 
 ``` bash
 docker run -d tomcat -p 80:8080 -p 443:8443 --name secureassist
 ```
+* docker exec -it containerName bash : Opens a bash terminal in the container
+* docker cp containerName:path/to/copy/from/ path/to/copy/to
+* docker cp path/to/copy/from containerName:path/to/copy/to
+
 
 ### Unzip and Tar Commands
 * tar -xvzf : Unzip the tar file into a folder
 * unzip : Unzip the zip file
 * unzip filename.zip -d path/to/folder : Unzip to mentioned folder
+
+
+### Start and Stop Service
+* service tomcat start : Start tomcat service
+* service tomcat stop : Stop tomcat service
+* systemctl start/restart/stop tomcat : Another way to start/restart and stop tomcat 
