@@ -6,6 +6,7 @@ Common commands and how-to's for Linux
 * [Docker Commands](#docker-commands)
 * [Unzip and Tar Commands](#unzip-and-tar-commands)
 * [Start and Stop Service](#start-and-stop-service)
+* [User Management]()
 
 
 ### Common Commands
@@ -48,3 +49,9 @@ docker run -d tomcat -p 80:8080 -p 443:8443 --name secureassist
 * service tomcat start : Start tomcat service
 * service tomcat stop : Stop tomcat service
 * systemctl start/restart/stop tomcat : Another way to start/restart and stop tomcat 
+
+### User Management
+* adduser <username> : Create a new user, replace <username>
+* passwd : Change the password of current user
+* passwd <username> : Change password of this user, replace <username>
+* userdel -r <username> : Delete the user and his home dir
