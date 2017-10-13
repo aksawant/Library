@@ -51,7 +51,7 @@ docker run -d tomcat -p 80:8080 -p 443:8443 --name secureassist
 * systemctl start/restart/stop tomcat : Another way to start/restart and stop tomcat 
 
 ### User Management
-* adduser <username> : Create a new user, replace <username>
+* adduser userName : Create a new user
 * passwd : Change the password of current user
-* passwd <username> : Change password of this user, replace <username>
-* userdel -r <username> : Delete the user and his home dir
+* passwd userName : Change password of this user
+* userdel -r userName : Delete the user and his home dir
