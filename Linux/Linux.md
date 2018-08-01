@@ -6,7 +6,7 @@ Common commands and how-to's for Linux
 * [Docker Commands](#docker-commands)
 * [Unzip and Tar Commands](#unzip-and-tar-commands)
 * [Start and Stop Service](#start-and-stop-service)
-* [User Management]()
+* [User Management](#user-management)
 * [Kali Linux](/Linux/KaliLinux.md)
 
 
@@ -56,3 +56,4 @@ docker run -d tomcat -p 80:8080 -p 443:8443 --name secureassist
 * passwd : Change the password of current user
 * passwd userName : Change password of this user
 * userdel -r userName : Delete the user and his home dir
+* usermod -aG sudo username : Adds the username to root user group
